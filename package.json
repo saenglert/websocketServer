@@ -1,0 +1,23 @@
+{
+  "name": "websocketServer",
+  "version": "1.0.0",
+  "main": "dist/index.html",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "scripts": {
+    "build": "webpack --progress",
+    "dev": "webpack-dev-server --hot --inline --content-base /dist"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1",
+    "@types/ws": "^5.1.2",
+    "redux": "^4.0.0",
+    "source-map-loader": "^0.2.3",
+    "webpack-dev-server": "^3.1.4",
+    "ws": "^5.2.0"
+  }
+}
